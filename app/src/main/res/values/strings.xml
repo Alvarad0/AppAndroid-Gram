@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">PlatziGram</string>
+    <string name="title_activity_reference">ReferenceActivity</string>
+    <!-- Interface Login  -->
+    <string name="editUserName">Nombre de Usuario</string>
+    <string name="editPassword">Contraseña</string>
+    <string name="btn_login">Iniciar Sesión</string>
+    <string name="txtNoCuenta">¿No tienes cuenta?, </string>
+    <string name="txtCrearCuenta">Crea una aquí</string>
 </resources>

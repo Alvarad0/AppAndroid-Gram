@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- Interfaz Login -->
+    <dimen name="editTextSizeLogin">22sp</dimen>
+    <dimen name="paddingHorizontalLogin">32dp</dimen>
+    <dimen name="txtNoCuenta">16sp</dimen>
+</resources>

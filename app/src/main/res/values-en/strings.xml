@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PlatziGram</string>
+    <!-- Interface Login  -->
+    <string name="editUserName">Username</string>
+    <string name="editPassword">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="txtNoCuenta">Don't have account?, </string>
+    <string name="txtCrearCuenta"> Create here</string>
+</resources>
