@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">PlatziGram</string>
-    <!-- Interface Login  -->
+    <!-- Interfaz Login  -->
     <string name="editUserName">Username</string>
     <string name="editPassword">Password</string>
     <string name="btn_login">Login</string>
     <string name="txtNoCuenta">Don't have account?, </string>
+    <!-- Interfaz Crear Usuario -->
     <string name="txtCrearCuenta"> Create here</string>
+    <string name="editCorreo">Email</string>
+    <string name="editNombre">Name</string>
+    <string name="editUsuario">User</string>
+    <string name="editContraseña">Password</string>
+    <string name="editRepetirContraseña">Confirm Password</string>
+    <string name="btnUnirme">Join</string>
+    <string name="txtToolBar">Create Account</string>
 </resources>

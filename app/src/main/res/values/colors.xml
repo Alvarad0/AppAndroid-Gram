@@ -5,4 +5,6 @@
     <color name="colorAccent">#FF4081</color>
     <!-- Interfaz Login -->
     <color name="editTextColorWhite">#FFFFFF</color>
+    <!-- Interfaz Crear Cuenta -->
+    <color name="editTextColorBlack">#000000</color>
 </resources>

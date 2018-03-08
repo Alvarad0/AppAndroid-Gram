@@ -1,10 +1,18 @@
 <resources>
     <string name="app_name">PlatziGram</string>
     <string name="title_activity_reference">ReferenceActivity</string>
-    <!-- Interface Login  -->
+    <!-- Interfaz Login  -->
     <string name="editUserName">Nombre de Usuario</string>
     <string name="editPassword">Contraseña</string>
     <string name="btn_login">Iniciar Sesión</string>
     <string name="txtNoCuenta">¿No tienes cuenta?, </string>
     <string name="txtCrearCuenta">Crea una aquí</string>
+    <!-- Interfaz Crear Cuenta -->
+    <string name="editCorreo">Correo</string>
+    <string name="editNombre">Nombre</string>
+    <string name="editUsuario">Usuario</string>
+    <string name="editContraseña">Contraseña</string>
+    <string name="editRepetirContraseña">Confirmar Contraseña</string>
+    <string name="btnUnirme">Unirme</string>
+    <string name="txtToolBar">Crear Cuenta</string>
 </resources>

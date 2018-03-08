@@ -1,8 +1,11 @@
 package com.alvarado.dev.platzigram;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+
+import com.alvarado.dev.platzigram.views.CreateAccountActivity;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -13,6 +16,8 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void crearCuenta(View view){
+        Intent intent = new Intent(this, CreateAccountActivity.class);
+        startActivity(intent);
 
     }
 }
