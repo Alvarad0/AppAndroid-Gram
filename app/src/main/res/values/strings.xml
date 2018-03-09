@@ -15,8 +15,15 @@
     <string name="editRepetirContraseña">Confirmar Contraseña</string>
     <string name="btnUnirme">Unirme</string>
     <string name="txtToolBar">Crear Cuenta</string>
+    <!-- Interfaz CardView -->
     <string name="txtNombreCardView">Pedro Picapiedra</string>
     <string name="txtHaceCardView">Hace</string>
     <string name="txtTiempoCardView">4 días</string>
     <string name="txtCantidadLikeCardView">10 Me Gusta</string>
+    <!-- Interfaz BottomBar -->
+    <string name="txt_tab_buscar">Buscar</string>
+    <string name="txt_tab_inicio">Inicio</string>
+    <string name="txt_tab_yo">Yo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

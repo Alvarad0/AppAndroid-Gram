@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_buscar"
+        icon="@mipmap/busqueda"
+        barColorWhenSelected="@color/colorPrimary"
+        title="@string/txt_tab_buscar" />
+    <tab
+        id="@+id/tab_inicio"
+        icon="@mipmap/casa"
+        barColorWhenSelected="@color/colorPrimary"
+        title="@string/txt_tab_inicio" />
+    <tab
+        id="@+id/tab_perfil"
+        icon="@mipmap/usuario"
+        barColorWhenSelected="@color/colorPrimary"
+        title="@string/txt_tab_yo" />
+</tabs>
