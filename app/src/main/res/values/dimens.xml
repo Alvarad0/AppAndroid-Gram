@@ -5,4 +5,11 @@
     <dimen name="paddingHorizontalLogin">32dp</dimen>
     <dimen name="txtNoCuenta">16sp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- Interfaz CardView -->
+    <dimen name="tamañoCardView">200dp</dimen>
+    <dimen name="radioEsquinaCardView">6dp</dimen>
+    <dimen name="txtNombrecardView">25sp</dimen>
+    <dimen name="txtHaceCardView">15sp</dimen>
+    <dimen name="txtTiempo">5dp</dimen>
+    <dimen name="likeMargin">10dp</dimen>
 </resources>

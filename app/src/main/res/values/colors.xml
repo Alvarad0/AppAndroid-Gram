@@ -7,4 +7,5 @@
     <color name="editTextColorWhite">#FFFFFF</color>
     <!-- Interfaz Crear Cuenta -->
     <color name="editTextColorBlack">#000000</color>
+    <color name="backgroundLinear">#53292929</color>
 </resources>

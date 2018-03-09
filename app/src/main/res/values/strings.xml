@@ -15,4 +15,8 @@
     <string name="editRepetirContraseña">Confirmar Contraseña</string>
     <string name="btnUnirme">Unirme</string>
     <string name="txtToolBar">Crear Cuenta</string>
+    <string name="txtNombreCardView">Pedro Picapiedra</string>
+    <string name="txtHaceCardView">Hace</string>
+    <string name="txtTiempoCardView">4 días</string>
+    <string name="txtCantidadLikeCardView">10 Me Gusta</string>
 </resources>

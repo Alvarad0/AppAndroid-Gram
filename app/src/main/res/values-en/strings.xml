@@ -15,4 +15,7 @@
     <string name="editRepetirContraseña">Confirm Password</string>
     <string name="btnUnirme">Join</string>
     <string name="txtToolBar">Create Account</string>
+    <string name="txtHaceCardView">Since</string>
+    <string name="txtTiempoCardView">4 days</string>
+    <string name="txtCantidadLikeCardView">10 Like</string>
 </resources>
