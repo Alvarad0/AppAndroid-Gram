@@ -5,7 +5,8 @@
     android:id="@+id/cardView"
     android:layout_height="@dimen/tamañoCardView"
     android:layout_width="match_parent"
-    cardview:cardCornerRadius="@dimen/radioEsquinaCardView">
+    cardview:cardCornerRadius="@dimen/radioEsquinaCardView"
+    android:layout_marginBottom="@dimen/activity_vertical_margin">
 
     <!-- FrameLayout para colocar elementos encima de otros -->
     <FrameLayout
@@ -13,6 +14,7 @@
         android:layout_height="match_parent">
 
         <ImageView
+            android:id="@+id/imgCardView"
             android:layout_width="match_parent"
             android:layout_height="@dimen/tamañoCardView"
             android:background="@drawable/image"
