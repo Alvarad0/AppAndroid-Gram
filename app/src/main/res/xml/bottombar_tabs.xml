@@ -2,17 +2,17 @@
 <tabs>
     <tab
         id="@+id/tab_buscar"
-        icon="@mipmap/busqueda"
+        icon="@drawable/search"
         barColorWhenSelected="@color/colorPrimary"
         title="@string/txt_tab_buscar" />
     <tab
         id="@+id/tab_inicio"
-        icon="@mipmap/casa"
+        icon="@drawable/home"
         barColorWhenSelected="@color/colorPrimary"
         title="@string/txt_tab_inicio" />
     <tab
         id="@+id/tab_perfil"
-        icon="@mipmap/usuario"
+        icon="@drawable/profile"
         barColorWhenSelected="@color/colorPrimary"
         title="@string/txt_tab_yo" />
 </tabs>
