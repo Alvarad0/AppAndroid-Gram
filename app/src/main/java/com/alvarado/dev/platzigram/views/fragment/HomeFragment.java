@@ -34,7 +34,7 @@ public class HomeFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_home, container, false);
         //Muestra el titulo en el ToolBar
-        mostrarToolbar("Inicio", false, view);
+        mostrarToolbar(getResources().getString(R.string.txt_tab_inicio), false, view);
 
         //Declaración del Recycler View
         RecyclerView picturesRecycler = (RecyclerView) view.findViewById(R.id.imagenRecycler);
@@ -42,6 +42,7 @@ public class HomeFragment extends Fragment {
         linearLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);
         picturesRecycler.setLayoutManager(linearLayoutManager);
 
+        //Se declara el id del CardView
         PictureAdapterRecyclerView pictureAdapterRecyclerView = new PictureAdapterRecyclerView(buildPictures(), R.layout.card_view_picture, getActivity());
         picturesRecycler.setAdapter(pictureAdapterRecyclerView);
         return view;
@@ -49,9 +50,9 @@ public class HomeFragment extends Fragment {
 
     public ArrayList<Picture> buildPictures(){
         ArrayList<Picture> pictures = new ArrayList<>();
-        pictures.add(new Picture("https://i2.wp.com/pendulo.com/images/big/New_york_city_Black_&_white__90669.jpg", "Pedro Picapiedra", "4 días", "4"));
-        pictures.add(new Picture("https://cdn.shopify.com/s/files/1/0182/8937/products/Paisley_Black_and_Blue_Fabric_Bow_Tie_X717_large.jpg?v=1442372686", "Homero Simpsom", "1 días", "10"));
-        pictures.add(new Picture("https://cdn.shopify.com/s/files/1/0153/0623/products/Amorina_Teal_Leaf_Wallpaper_from_the_Scandinavian_Designers_II_Collection_by_Brewster_4c737082-496d-4a6a-ab55-e99c08d508b9_large.jpg?v=1514576929", "Bart Simpsom", "6 días", "7"));
+        pictures.add(new Picture("https://i2.wp.com/pendulo.com/images/big/New_york_city_Black_&_white__90669.jpg", "Pedro Picapiedra", "4 días", "4 Me Gusta"));
+        pictures.add(new Picture("https://cdn.shopify.com/s/files/1/0182/8937/products/Paisley_Black_and_Blue_Fabric_Bow_Tie_X717_large.jpg?v=1442372686", "Homero Simpsom", "1 días", "10 Me Gusta"));
+        pictures.add(new Picture("https://cdn.shopify.com/s/files/1/0153/0623/products/Amorina_Teal_Leaf_Wallpaper_from_the_Scandinavian_Designers_II_Collection_by_Brewster_4c737082-496d-4a6a-ab55-e99c08d508b9_large.jpg?v=1514576929", "Bart Simpsom", "6 días", "7 Me Gusta"));
         return pictures;
     }
 
