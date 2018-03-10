@@ -1,6 +1,7 @@
 package com.alvarado.dev.platzigram.adapter;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,6 +11,7 @@ import android.widget.TextView;
 
 import com.alvarado.dev.platzigram.R;
 import com.alvarado.dev.platzigram.model.Picture;
+import com.alvarado.dev.platzigram.views.PictureDetailActivity;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
@@ -44,6 +46,14 @@ public class PictureAdapterRecyclerView extends RecyclerView.Adapter<PictureAdap
         holder.tiempoCardView.setText(picture.getTiempo());
         holder.numLikeCardView.setText(picture.getNumLike());
         Picasso.get().load(picture.getImagen()).into(holder.imgCardView);
+        //Actividad que lanza la interfaz de detalles
+        holder.imgCardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(activity, PictureDetailActivity.class);
+                activity.startActivity(intent);
+            }
+        });
     }
 
     @Override
