@@ -23,4 +23,5 @@
     <string name="txt_tab_buscar">Search</string>
     <string name="txt_tab_inicio">Home</string>
     <string name="txt_tab_yo">Me</string>
+    <string name="secondWordDetail">Me Gusta</string>
 </resources>

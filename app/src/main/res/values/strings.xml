@@ -26,4 +26,8 @@
     <string name="txt_tab_yo">Yo</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txtCantidadLikeNumberDetail">10</string>
+    <string name="secondWordDetail">Me Gusta</string>
+    <string name="titleImageDetail">\"Todo copas en la playa\"</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum, metus a tincidunt scelerisque, leo nisl egestas neque, quis ornare nunc felis at erat. Ut pellentesque eget nunc non blandit. Aliquam efficitur pulvinar ipsum id pulvinar. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed eget felis eu ipsum finibus venenatis eget aliquet est. Cras pellentesque efficitur libero, at sodales arcu condimentum sed. Integer tristique ante nec sapien bibendum, id semper nisl posuere. In ac quam gravida, pretium diam at, euismod dolor. Morbi in cursus arcu, a sodales magna.</string>
 </resources>

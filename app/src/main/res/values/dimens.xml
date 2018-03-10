@@ -14,4 +14,11 @@
     <dimen name="likeMargin">10dp</dimen>
     <dimen name="bottombar_height">70dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appBarLayout">200dp</dimen>
+    <dimen name="textSizeUserDetail">25sp</dimen>
+    <dimen name="textSizeLikeNumberDetail">15sp</dimen>
+    <dimen name="height_dividir">1dp</dimen>
+    <dimen name="titleImageDetail">20dp</dimen>
+    <dimen name="paddingHorizontalTextContentDetail">35dp</dimen>
+    <dimen name="appBarLayoutHeight">256dp</dimen>
 </resources>
